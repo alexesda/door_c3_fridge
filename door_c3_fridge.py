@@ -5,11 +5,11 @@ import ubinascii
 from umqtt.simple import MQTTClient
 
 # Wi-Fi credentials
-SSID = "AAL_HOUSE"
-PASSWORD = "Sm@rtTH0usE21"
+SSID = "SSID"
+PASSWORD = "WIFI_PASS"
 
 # MQTT Broker details
-MQTT_BROKER = "10.10.30.200"
+MQTT_BROKER = "BROKER"
 MQTT_PORT = 1883
 MQTT_TOPIC = "home/door_fridge"
 MQTT_CLIENT_ID = ubinascii.hexlify(unique_id()).decode()
